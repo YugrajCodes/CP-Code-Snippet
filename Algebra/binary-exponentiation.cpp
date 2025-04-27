@@ -20,3 +20,21 @@ ll binExpoMod(ll a,ll b, ll m){
     }
     return res;
 }
+
+
+/*--------------------------------------
+EXPLANATION
+
+lets take pow(3,5)
+
+5 in binary is 101
+
+at each binary digit we calculate corresponding power of 3
+
+index = 1  0  1
+power = 4  2  1
+
+if index is zero skip that power of 3
+pow(3,4)*pow(3,1)
+
+*/
